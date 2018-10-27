@@ -1,0 +1,78 @@
+/*公共基础样式*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt,
+dd,
+p,
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-size: 12px !important;
+  font-family: "Microsoft YaHei", "Arial" !important;
+  color: #333;
+  background-color: #fff;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none !important;
+}
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-box-sizing: border-box; /* Safari */
+}
+.table_toggleBtn{
+  display: inline-block;
+  width:18px;
+  height:100%;
+  cursor:pointer;
+}
+.table_toggleBtn i{
+    font-size:18px;
+    vertical-align: -1px;
+}
+.table_trSpace{
+  display:inline-block;
+  width: 22px;
+  height:10px;
+}
+.tableContent{
+  width:90%;
+  margin:50px auto 0;
+}
+.tableContent .el-table{
+  color:#333;
+}
+.tableContent .el-table thead th{
+  background: #e5e6f5;
+}
